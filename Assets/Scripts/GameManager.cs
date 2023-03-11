@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
         GameManager.score += score;
         print(System.DateTime.Now);
         //print(textScore);
-        textScore.text = GameManager.score.ToString();
+        textScore.text = GameManager.score.ToString("D3");
         //canvas.enabled = false;
     }
 
